@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express();
 
+//GET, POST, PUT, DELETE
+
 // req.query = Acessar query params (?idade=3 (filtros))
 // req.params = Acessar route param (para edição e delete)
 // req.body = Acessar corpo da requisição (para criação, edição)
